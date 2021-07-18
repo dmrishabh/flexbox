@@ -1,0 +1,19 @@
+    /* code for flex */
+
+    .container{
+        display: flex;
+        border: 2px solid rgb(255, 0, 0);
+        flex-direction: row;
+        width: 1000px;
+    }   
+
+    .container div{
+        flex-grow: 1;
+        width: 100px;
+
+    }
+
+    .container div:nth-child(2){
+        flex-grow: 4;
+        
+    }

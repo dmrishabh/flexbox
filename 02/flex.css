@@ -1,0 +1,13 @@
+/* code for flex */
+
+.container {
+  display: flex;
+  border: 1px solid rgb(255, 0, 0);
+
+  flex-direction: row;
+    
+  justify-content: space-evenly ; 
+  /* main axis */   
+
+ 
+}
